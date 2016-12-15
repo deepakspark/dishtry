@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>DishTry | Khana Khaya Kya!</title>
+        <link href="img/favIcon.PNG" rel="icon" type="image/PNG">
+          
+        <!--************** Latest compiled and minified CSS *******************-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+          
+        <!-- ************ Optional theme ****************-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+          
+        <!-- ************ My CSS ****************-->  
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: 'Roboto' , sans-serif;
+            }
+            
+            html, body { 
+                margin: 0; 
+                padding: 0; 
+                width: 100%; 
+                height: 100%;
+                text-align: center;
+                align-content: center;
+            }
+            
+            .upperBar{
+                background: rgb(233,21,63);
+                width: 100%;
+                height: 1%;
+            }
+            
+            .upperSpace{
+                width: 100%;
+                height: 18%;
+            }
+            
+            .lowerSpace{
+                width: 100%;
+                height: 7%;
+            }
+            
+            .loader{
+                width: 40px;
+            }
+            
+
+             
+        </style>
+      </head>
+    <!--****************************** BODY STARTS ****************************************-->
+      <body>
+       
+          <div class="upperBar"></div>
+          <div class="upperSpace"></div>
+          
+        <div class="container"> 
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                     <img src="" id="image" width="100%" style="border-radius:1000px;"><br>
+                </div>
+            </div>
+          </div>
+          
+          <div class="lowerSpace"></div>
+          <p>Welcome to DishTry, Please Wait!</p>
+          <img class="loader" src="img/loader.gif">
+          
+          
+        <!--****************************** jQuery ************************-->  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--****************************** jQuery.cookie ************************-->  
+        <script src="jquery.cookie.js"></script> 
+        <!--************* Latest compiled and minified JavaScript*********** -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!--***************************** My JavaScript************************-->    
+        <script>
+             function redirect(){
+                 document.location.href = 'home.php';
+             }
+            
+            var n = Math.floor(Math.random()*5);
+            if(n == 0) n++;
+            document.getElementById("image").src = "img/slides1/"+n+".PNG";
+            $("body").ready(function(){$("body").hide().fadeIn("slow");});
+             setTimeout(function(){document.location.href="home.php"},2500);
+        </script>
+      </body>
+</html>

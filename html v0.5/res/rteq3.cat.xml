@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<cats>
+    <cat usrvalue="Breads" srvalue="breads"></cat>
+    <cat usrvalue="Soft Drinks" srvalue="softDrinks"></cat>
+    <cat usrvalue="Tacos" srvalue="tacos"></cat>
+</cats>

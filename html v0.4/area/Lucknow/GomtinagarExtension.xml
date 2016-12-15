@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<reses>
+    <res name="<span class='glyphicon glyphicon-star'></span>" id="rteqw"></res>
+    <res name="<span class='glyphicon glyphicon-star'></span><span class='glyphicon glyphicon-star'></span>" id="rteq2"></res>
+    <res name="<span class='glyphicon glyphicon-star'></span><span class='glyphicon glyphicon-star'></span><span class='glyphicon glyphicon-star'></span>" id="rteq3"></res>
+</reses>

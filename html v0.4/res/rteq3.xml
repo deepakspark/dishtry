@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<dishes> 
+     <!--************ NOTE: category here is equal to srvalue of *.cat.xml *********-->
+    <dish usrvalue="Veg Burger" srvalue="vegBurger" cost="50" category="breads"></dish>
+    <dish usrvalue="Paneer Burger" srvalue="paneerBurger" cost="70" category="breads"></dish>
+    <dish usrvalue="Non Veg Burger" srvalue="nonVegBurger" cost="100" category="breads"></dish>
+    <dish usrvalue="Coca Cola 1l" srvalue="cocaCola1l" cost="55" category="softDrinks"></dish>
+    <dish usrvalue="Pepsi 1l" srvalue="pepsi1l" cost="50" category="softDrinks"></dish>
+    <dish usrvalue="Fanta 1l" srvalue="fanta1l" cost="55" category="softDrinks"></dish>
+    <dish usrvalue="Mex Special" srvalue="mexSpecial" cost="100" category="tacos"></dish>
+    <dish usrvalue="Cheese Burst T" srvalue="cheeseBurstT" cost="120" category="tacos"></dish>
+</dishes>
